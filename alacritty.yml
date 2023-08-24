@@ -39,7 +39,7 @@ font:
     y: 1
 
 import:
-  - ~/.config/alacritty/themes/themes/spaceduck.yml
+  - ~/.config/alacritty/themes/themes/carbonfox.yaml
 
 shell:
   program: /bin/bash
