@@ -23,7 +23,7 @@ if exists('+termguicolors')
 endif
 
 "colorscheme spaceduck
-colorscheme industry
+colorscheme monochrome
 
 let g:lightline = {
     \ 'colorscheme': 'spaceduck',
