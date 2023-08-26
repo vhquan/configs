@@ -22,18 +22,18 @@ scrolling:
 
 font:
   normal:
-    family: Jetbrains Mono 
+    family: Monaco 
     style: Regular
 
   bold:
-    family: Jetbrains Mono
+    family: Monaco
     style: Bold
 
   italic:
-    family: Jetbrains Mono
+    family: Monaco
     style: Italic
 
-  size: 12
+  size: 11
   offset:
     x: 0
     y: 1
