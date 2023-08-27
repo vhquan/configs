@@ -42,6 +42,8 @@
 ;; Scroll to the first and last line of the buffer
 (setq scroll-error-top-bottom t)
 
+(setq make-backup-files nil); stop creating ~ files
+
 ;; Nice bullets
 (use-package org-superstar
   :config
