@@ -13,7 +13,7 @@
 ;; Keyboard-centric user interface
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
-;;(menu-bar-mode -1)
+(menu-bar-mode -1)
 (scroll-bar-mode -1)
 
 ;; Theme
@@ -49,3 +49,5 @@
   (add-hook 'org-mode-hook (lambda ()
 			     (org-superstar-mode 1))))
 
+;; Setting the default font
+(set-face-attribute 'default nil :font "Helvetica")
