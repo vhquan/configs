@@ -16,6 +16,8 @@
          :email "vuhongquanbk97@gmail.com"
          :with-creator nil
 	 :html-head "<link rel=\"stylesheet\" href=\"css/style.css\" type=\"text/css\"/>"
+     :html-head-extra nil
+     :html-link-home "https://vhquan.github.io/"
 	 :html-head-include-default-style nil
 	 :html-head-include-scripts nil
 	 :html-preamble blog-header

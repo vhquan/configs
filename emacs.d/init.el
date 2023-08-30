@@ -1,3 +1,5 @@
+;; References: http://alhassy.com/AlBasmala
+
 ;; Define and initialize package repositories
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)

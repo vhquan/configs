@@ -4,7 +4,7 @@ env:
 window:
   dimensions:
     columns: 100
-    lines: 30
+    lines: 50
   padding: 
     x: 6
     y: 6
@@ -20,19 +20,17 @@ window:
 scrolling:
   history: 5000
 
-# Inconsolata, Fira Code, ...
-
 font:
   normal:
-    family: Fira Code 
+    family: Input 
     style: Regular
 
   bold:
-    family: Fira Code
+    family: Input
     style: Bold
 
   italic:
-    family: Fira Code
+    family: Input
     style: Italic
 
   size: 11
