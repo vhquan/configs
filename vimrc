@@ -5,7 +5,10 @@ Plug 'fxn/vim-monochrome'
 Plug 'bfrg/vim-cpp-modern'
 Plug 'sheerun/vim-polyglot'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
- Plug 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'agude/vim-eldar'
+Plug 'bignimbus/pop-punk.vim'
+Plug 'mhinz/vim-startify'
 call plug#end()
 
 filetype plugin indent on
@@ -22,11 +25,10 @@ if exists('+termguicolors')
     set termguicolors
 endif
 
-"colorscheme spaceduck
-colorscheme koehler
+colorscheme pop-punk
 
 let g:lightline = {
-    \ 'colorscheme': 'spaceduck',
+    \ 'colorscheme': 'pop_punk',
 \ }
 
 set hlsearch
