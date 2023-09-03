@@ -1,0 +1,7 @@
+### set vi mode on prompt
+set editing-mode vi
+
+### show active mode (command or insert)
+set show-mode-in-prompt on
+
+
