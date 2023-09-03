@@ -26,10 +26,10 @@ if exists('+termguicolors')
     set termguicolors
 endif
 
-colorscheme everblush
+colorscheme pop-punk
 
 let g:lightline = {
-    \ 'colorscheme': 'everblush',
+    \ 'colorscheme': 'pop_punk',
 \ }
 
 set hlsearch
