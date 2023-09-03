@@ -1,5 +1,5 @@
 # ls aliases
-alias ls='ls -hl --color=always --group-directories-first'
+alias ls='ls --color=always --group-directories-first'
 alias la='ls -A'
 
 # Custom colorize output
