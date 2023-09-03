@@ -9,6 +9,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'agude/vim-eldar'
 Plug 'bignimbus/pop-punk.vim'
 Plug 'mhinz/vim-startify'
+Plug 'Everblush/everblush.vim'
 call plug#end()
 
 filetype plugin indent on
@@ -25,10 +26,10 @@ if exists('+termguicolors')
     set termguicolors
 endif
 
-colorscheme pop-punk
+colorscheme everblush
 
 let g:lightline = {
-    \ 'colorscheme': 'pop_punk',
+    \ 'colorscheme': 'everblush',
 \ }
 
 set hlsearch
