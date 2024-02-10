@@ -8,6 +8,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -f ~/.git-prompt.sh ]; then
+    . ~/.git-prompt.sh
+fi
+
 # Auto 'cd' when entering just a path
 shopt -s autocd
 
@@ -15,4 +19,4 @@ shopt -s autocd
 set -o vi
 
 # PS1
-export PS1="\[\e[32m\]\u\[\e[m\]\[\e[37m\] \[\e[m\]\[\e[37m\]on\[\e[m\]\[\e[37m\] \[\e[m\]\[\e[33m\]\h\[\e[m\]\[\e[37m\] \[\e[m\]\[\e[37m\]at\[\e[m\]\[\e[37m\] \[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[37m\]\n\[\e[m\]\[\e[31m\]\\$\[\e[m\]\[\e[37m\]>\[\e[m\]\[\e[37m\] \[\e[m\]"
+PROMPT_COMMAND='PS1_CMD1=$(__git_ps1 " (%s)")'; PS1='[\[\e[38;5;81m\]\W\[\e[0m\]]\[\e[38;5;50m\]${PS1_CMD1}\[\e[0m\] \[\e[38;5;228;1m\]\$\[\e[0m\] '
