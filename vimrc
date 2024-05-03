@@ -1,10 +1,12 @@
 " ====== INIT START ======
+let mapleader = ","
 
 call plug#begin()
 Plug 'bfrg/vim-cpp-modern'
 Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
 Plug 'mhinz/vim-startify'
+Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 filetype plugin indent on
@@ -12,7 +14,10 @@ syntax on
 set noshowmode
 set laststatus=2
 
-colorscheme pablo
+"colorscheme torte
+"colorscheme koehler
+"colorscheme industry
+colorscheme lunaperche
 set background=dark
 
 set hlsearch

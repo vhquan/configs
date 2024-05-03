@@ -29,3 +29,5 @@ function short_path {
 # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]`short_path`\[\033[00m\]\$ '
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]`short_path`\[\033[00m\]\[\e[38;5;50m\]$(__git_ps1 " (%s)")\[\e[0m\] \$ '
+
+export PATH=$PATH:$HOME/.cargo/bin
