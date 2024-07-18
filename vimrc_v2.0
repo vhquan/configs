@@ -1,0 +1,48 @@
+let mapleader=','
+
+call plug#begin()
+
+Plug 'bfrg/vim-cpp-modern'
+Plug 'sheerun/vim-polyglot'
+Plug 'itchyny/lightline.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'zaki/zazen'
+Plug 'dikiaap/minimalist'
+Plug 'glepnir/oceanic-material'
+Plug 'github/copilot.vim'
+
+call plug#end()
+
+filetype plugin indent on
+set noshowmode
+set laststatus=2
+
+set t_Co=256
+syntax on
+set background=dark
+"colorscheme koehler
+colorscheme industry
+
+set hlsearch
+set incsearch
+set number
+
+set ts=4 sw=4 sts=4
+set et ai si
+set textwidth=78
+set backspace=indent,eol,start
+set wildmode=list:longest,full
+
+" Disables automatic commenting on newline
+auto FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+let g:lightline = {
+      \ 'colorscheme': 'seoul256',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'FugitiveHead'
+      \ },
+      \ }
