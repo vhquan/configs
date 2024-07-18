@@ -1,0 +1,28 @@
+import = [
+    "~/.config/alacritty/themes/snazzy.toml"
+]
+
+[cursor]
+style = "Block"
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "Monoid"
+style = "Retina"
+
+[font.bold]
+family = "Monoid"
+style = "Bold"
+
+[font.italic]
+family = "Monoid"
+style = "Italic"
+
+[terminal]
+osc52 = "CopyPaste"
+
+[mouse]
+hide_when_typing = true
+
