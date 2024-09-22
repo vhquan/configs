@@ -1,23 +1,23 @@
 import = [
-    "~/.config/alacritty/themes/snazzy.toml"
+    "~/.config/alacritty/themes/aura.toml"
 ]
 
 [cursor]
 style = "Block"
 
 [font]
-size = 12.0
+size = 11.0
 
 [font.normal]
-family = "Monoid"
+family = "Monoid Nerd Font"
 style = "Retina"
 
 [font.bold]
-family = "Monoid"
+family = "Monoid Nerd Font"
 style = "Bold"
 
 [font.italic]
-family = "Monoid"
+family = "Monoid Nerd Font"
 style = "Italic"
 
 [terminal]
