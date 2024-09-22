@@ -7,6 +7,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
 Plug 'mhinz/vim-startify'
 Plug 'easymotion/vim-easymotion'
+Plug 'vhquan/candycode'
 call plug#end()
 
 filetype plugin indent on
@@ -14,11 +15,11 @@ syntax on
 set noshowmode
 set laststatus=2
 
-"colorscheme torte
-"colorscheme koehler
-"colorscheme industry
-colorscheme lunaperche
+set t_Co=256
 set background=dark
+if !has("gui_running")
+    colorscheme candycode
+end
 
 set hlsearch
 set incsearch
@@ -32,3 +33,7 @@ set wildmode=list:longest,full
 
 autocmd filetype cpp nnoremap <F5> :w <bar> !g++ -std=c++17 -O2 -Wall % -o %:r && ./%:r <CR>
 set nocompatible
+
+" Disable automatic commenting on newline
+auto FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
