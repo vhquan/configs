@@ -1,23 +1,23 @@
 import = [
-    "~/.config/alacritty/themes/aura.toml"
+    "~/.config/alacritty/themes/monokai_charcoal.toml"
 ]
 
 [cursor]
 style = "Block"
 
 [font]
-size = 11.0
+size = 12.0
 
 [font.normal]
-family = "Monoid Nerd Font"
+family = "Monoid"
 style = "Retina"
 
 [font.bold]
-family = "Monoid Nerd Font"
+family = "Monoid"
 style = "Bold"
 
 [font.italic]
-family = "Monoid Nerd Font"
+family = "Monoid"
 style = "Italic"
 
 [terminal]
