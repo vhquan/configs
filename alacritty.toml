@@ -9,15 +9,15 @@ style = "Block"
 size = 12.0
 
 [font.normal]
-family = "Monoid"
-style = "Retina"
+family = "Gintronic"
+style = "Regular"
 
 [font.bold]
-family = "Monoid"
+family = "Gintronic"
 style = "Bold"
 
 [font.italic]
-family = "Monoid"
+family = "Gintronic"
 style = "Italic"
 
 [terminal]
@@ -26,3 +26,6 @@ osc52 = "CopyPaste"
 [mouse]
 hide_when_typing = true
 
+[window]
+dimensions = { columns = 90, lines = 40 }
+padding = { x = 10, y = 10 }
